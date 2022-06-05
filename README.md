@@ -1,6 +1,10 @@
 # supermarket-oop
 Write all your `.ts` files inside `src` directory.
 
+## How to run
+1. in cmd run the command `npm install`
+2. execute tests with the command `npm run test`
+
 ## Tests
 run test with `npm run test` command
 
