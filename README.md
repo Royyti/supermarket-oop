@@ -13,7 +13,7 @@ run test with `npm run test` command
 - `CashRegister` (`cashId`, `products: Product[]`, `worker: StaffMember`)
   - `private static cashIdCounter: number = 1;`
 - `Consumer` (`isClubMember`)
-- `IPerson` - interface 
+- `Person` (`firstName`)
 - `Product` (`price`, `name`, `brand`, `barcode`)
 - `StaffMember` (`role`)
 
@@ -24,7 +24,7 @@ Every cash machine has unique id (`cashId` property), and the machine unique id 
 you can use `map` and `reduce` inside the function `endPurchase` to calculate the total.
 
 ## Inheritance:
-`StaffMember` and `Consumer` inherit `IPerson`
+`StaffMember` and `Consumer` inherit `Person`
 
  cashId: number;
     products?: Product[];
